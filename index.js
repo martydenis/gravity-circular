@@ -161,7 +161,3 @@ window.addEventListener('click', function () {
     circle.jump(8);
   }
 });
-
-document.getElementById('back').addEventListener('click', function(e) {
-  e.stopPropagation();
-});
