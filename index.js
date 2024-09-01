@@ -120,7 +120,7 @@ let oldTime = new Date();
 let newTime = new Date();
 function updateGame() {
     newTime = new Date();
-    const delta = (newTime - oldTime) * 0.075;
+    const delta = Math.min(50, newTime - oldTime) * 0.075;
 
     updateLogic(delta);
     updateVisuals();
