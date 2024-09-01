@@ -6,7 +6,6 @@ initStopPropagation();
 // Variables
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
-const FPS = 60;
 
 var gravity = 0.3;
 var circles = [];
